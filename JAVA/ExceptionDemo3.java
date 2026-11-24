@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Demo
+{
+    public static int Divison(int no1,int no2)
+    {
+        return  no1/no2;
+    }
+}
+
+public class ExceptionDemo3
+{
+    public static void main(String A[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        int no1=0,no2=0,ans=0;
+
+        System.out.println("Enter First Number:  ");
+        no1=sobj.nextInt();
+         
+        System.out.println("Enter Second Number:  ");
+        no2=sobj.nextInt();
+
+        ans=Demo.Divison(no1,no2);
+
+        System.out.println("Divison is: "+ans);
+
+    }
+}
+
