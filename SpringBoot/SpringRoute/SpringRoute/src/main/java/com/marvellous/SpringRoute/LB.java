@@ -8,6 +8,7 @@ public class LB
 {
     @GetMapping("LB")
     public String DisplayLB()
+
     {
         return"LB IS THE LOGIC BUILDING BATCH";
     }
